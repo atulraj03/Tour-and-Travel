@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Nav Bar Styling */
+.tour-logo{
+    height: 50px;
+    width: 50px;
+}
+
+#nav-item2{
+    color: blue;
+    font-family: roboto;
+}
+
+#nav-item3{
+    color: blue;
+    font-family: roboto;
+}
+
+#nav-item4{
+    color: blue;
+    font-family: roboto;
+}
+
+/* Banner Styling */
+.banner-section-bg-container{
+    /* background-image: url(https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?size=626&ext=jpg&ga=GA1.2.1071309969.1663770865); */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-section-heading{
+    font-family: lobster;
+    font-size: 32px;
+}
+
+.banner-section-paragraph{
+    font-family: caveat;
+    font-size: 18px;
+    color: rgb(18, 85, 209);
+}
+
+.banner-section-button1{
+    color: white;
+    background-color: rgb(192, 192, 11);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.banner-section-button2{
+    color: rgb(192, 192, 11);
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 10px;
+    border-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Why Choose Us Styling*/
+.wcu-container{
+    
+    background-color: rgb(227, 247, 250);
+    padding: 40px;
+}
+
+.wcu-container-heading{
+    font-family: roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.wcu-container-paragraph{
+    font-family: serif;
+    font-size: 16px;
+}
+
+/* Here Why Choose Us? Card Styling*/
+.wcu-card-container{
+    background-color: white;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+.wcu-card-title{
+    font-family: roboto;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.wcu-card-paragraph{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* Here Explore Styling */
+.explore-container{
+    background-color: #EFF5F5;
+    padding: 40px;   
+}
+
+.explore-container-heading{
+    font-family: roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Here Explore Card Styling */
+.explore-card-container{
+    background-color: white;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 10px 10px 5px rgb(133, 131, 131);
+}
+
+.explore-card-container-img{
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.explore-card-title{
+    font-family: roboto;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 10px;
+    font-weight: bold;
+    box-shadow: 20px;
+}
+
+.explore-card-button{
+    color: #0014FF;
+    background-color: transparent;
+    border: 0px;
+    text-align: right;
+}
+
+/*Here Payment Section Styling */
+.payment-container{
+    background-color: #DBE2EF;
+    padding: 40px;
+}
+
+.payment-card-container-heading{
+    color: darkblue;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.payment-card-container-paragraph{
+    font-family: sans-serif;
+    color: #4552df;
+}
+
+.payment-card-container-button{
+    background-color: rgb(119, 119, 3);
+    color: white;
+    border: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.payment-section-payment-icon{
+    height: 45px;
+    width: 30px;
+    margin: 5px;
+}
+
+/* Here Thank you Section Styling */
+.thankyou-container{
+    background-color: #FCE38A;
+    padding: 40px;
+}
+
+.thankyou-card-container-heading{
+    font-family: roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.thankyou-card-container-paragraph{
+    font-family: sans-serif;
+}
+
+.thankyou-card-container-button{
+    background-color: rgb(119, 119, 3);
+    color: white;
+    border: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Here Follow Us Section Styling*/
+.social-container{
+    background-color: #F2E5E5;
+    padding: 40px;
+    text-align: center;
+}
+
+.social-card-container-heading{
+    font-family: roboto;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.social-card-container-icon{
+    height: 30px;
+    width: 30px;
+    margin: 15px;   
+}
+
+/*Here Footer Section Styling */
+.footer-container{
+    background-color: #434242;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer-section-card-paragraph1{
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.footer-section-card-paragraph2{
+    color: white;
+    font-family: roboto;
+}
